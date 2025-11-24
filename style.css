@@ -120,3 +120,12 @@ body {
     padding-bottom: 20px;
     font-size: 14px;
 }
+
+/* LOGO NAVBAR */
+.logo-img {
+    height: 38px;
+    width: auto;
+    margin-right: 10px;
+    filter: drop-shadow(0 0 4px red);
+    margin-top: 5px;
+}
