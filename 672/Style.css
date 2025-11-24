@@ -509,64 +509,17 @@ text-shadow: 4px 4px 4px black;
 text-shadow: 4px 4px 4px black;
  font-size:32px;
 }
-/* ===========================
-   FINAL RED–BLACK GLOSSY STYLE
-   =========================== */
 
-/* Background full hitam */
-html, body {
-    background: #000000 !important;
-}
-
-/* Tombol merah glossy dengan glow kuat */
-button {
-    background: linear-gradient(#ff4b4b, #c40000) !important;
-    border: 2px solid #860000 !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
-
-    /* Glow tebal ala screenshot */
-    box-shadow: 
-        0 0 12px rgba(255, 0, 0, 0.9),
-        0 0 22px rgba(255, 0, 0, 0.8),
-        0 0 32px rgba(255, 0, 0, 0.6) !important;
-
-    transition: 0.2s ease-in-out;
-}
-
-/* Hover = lebih terang + glow membesar */
-button:hover {
-    background: linear-gradient(#ff7373, #ff0000) !important;
-    border-color: #ff2a2a !important;
-
-    box-shadow:
-        0 0 18px rgba(255, 0, 0, 1),
-        0 0 30px rgba(255, 0, 0, 0.9),
-        0 0 45px rgba(255, 0, 0, 0.7) !important;
-}
-
-/* Judul & label group warna emas */
-.title, .Title {
-    color: #ffd97d !important;
-    text-shadow: 0 0 10px rgba(255, 200, 80, 0.6) !important;
-}
-
-/* Footer glow hijau untuk "Basten Gaming" */
-.hue, #customizedTag {
-    background: rgba(0, 255, 100, 0.35) !important;
-    box-shadow: 0 0 35px rgba(0, 255, 100, 0.9) !important;
-}
-
-/* Panel tetap transparan gelap */
-.content, .bg-darker {
-    background: rgba(0, 0, 0, 0.55) !important;
-}
+/* ===================================
+   BASTEN GAMING - WALLPAPER SLIDESHOW
+   =================================== */
 
 html, body {
     animation: slideBG 45s infinite ease-in-out !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+    background-color: #000 !important;
 }
 
 @keyframes slideBG {
@@ -575,3 +528,4 @@ html, body {
     66%  { background-image: url("bg3.png"); }
     100% { background-image: url("bg1.jpg"); }
 }
+
