@@ -1,26 +1,24 @@
-
 CACHE MANIFEST
 # Basten Gaming Host FW11 offline manifest
-# Version: 2025-11-24T20:00:00Z
+# Version: 2025-11-25T02:00:00Z
 
 CACHE:
 # main page
 index.html
 sendpayload.js
-# root CSS (note: ../Style.css is one level up relative to index)
+
+# css
 ../Style.css
 
-# payload folder (exclude goldhen, psfree, exploit, loader)
+# payload folder
 payload/app2usb.bin
 payload/app-dumper.bin
 payload/disable-aslr.bin
 payload/disable-updates.bin
-payload/enable-browser.bin
 payload/enable-updates.bin
 payload/exit-idu.bin
 payload/fan-threshold.bin
 payload/ftp.bin
-# payload/goldhen1100.bin   <-- excluded by request
 payload/history-blocker.bin
 payload/kernel-clock.bin
 payload/kernel-dumper.bin
@@ -29,6 +27,7 @@ payload/Linux-2gb.bin
 payload/Linux-3gb.bin
 payload/Linux-4gb.bin
 payload/module-dumper.bin
+payload/permanent-uart.bin
 payload/permanent-uart.bin
 payload/ps4-debug_v1.1.16.bin
 payload/ps4-sflash0-dumper.bin
@@ -40,6 +39,3 @@ payload/WebRTE.bin
 
 NETWORK:
 *
-
-FALLBACK:
-/ /offline.html
