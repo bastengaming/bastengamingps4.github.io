@@ -1,9 +1,53 @@
 CACHE MANIFEST
-# Basten Gaming FW 11.00 manifest
+# Basten Gaming Host FW11 manifest
+# Version: 2025-11-24T20:xx:00Z
+
+CACHE:
+
+# main page
 index.html
-payload/goldhen1100.bin
-payload/exploit.js
-payload/psfree.js
-payload/loader.bin
+
+# root-level CSS (relatif terhadap index.html)
+../Style.css
+
+# local scripts (jika ada)
+sw.js
+
+# payloads (folder payload di bawah 1100/)
+payload/app2usb.bin
+payload/app-dumper.bin
+payload/disable-aslr.bin
+payload/disable-updates.bin
+payload/enable-browser.bin
+payload/enable-updates.bin
+payload/exit-idu.bin
+payload/fan-threshold.bin
+payload/ftp.bin
+# payload/goldhen1100.bin  <-- DIKELUARKAN (sesuai permintaan)
+payload/history-blocker.bin
+payload/kernel-clock.bin
+payload/kernel-dumper.bin
+payload/Linux.bin
+payload/Linux-2gb.bin
+payload/Linux-3gb.bin
+payload/Linux-4gb.bin
+# payload/loader.bin       <-- DIKELUARKAN
+payload/module-dumper.bin
+payload/permanent-uart.bin
+payload/ps4-debug_v1.1.16.bin
+payload/ps4-sflash0-dumper.bin
+# payload/psfree.js        <-- DIKELUARKAN
+payload/pup-decrypt.bin
+payload/restore.bin
+payload/rif-renamer.bin
+payload/todex.bin
+payload/WebRTE.bin
+
+# any images or logos you want cached (if ada)
+# ../LOGOMERK_TRANSPARENT.png
+
+# optionally cache other root files used by your host
+# ../another-file.js
+
 NETWORK:
 *
